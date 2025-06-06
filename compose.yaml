@@ -1,0 +1,7 @@
+﻿services:
+  barberboss.webapi:
+    image: barberboss.webapi
+    build:
+      context: .
+      dockerfile: src/BarberBoss.WebAPI/Dockerfile
+

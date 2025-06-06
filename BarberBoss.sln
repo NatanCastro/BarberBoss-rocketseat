@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D3539E56-BD84-4980-9BC9-5E3B11C21738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBoss.WebAPI", "src\BarberBoss.WebAPI\BarberBoss.WebAPI.csproj", "{E3D1BB81-FC00-43FB-9D32-A4A94748A918}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F21309A4-3067-4FFF-8DF9-ABA1A1E40EE2}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3D1BB81-FC00-43FB-9D32-A4A94748A918} = {D3539E56-BD84-4980-9BC9-5E3B11C21738}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3D1BB81-FC00-43FB-9D32-A4A94748A918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D1BB81-FC00-43FB-9D32-A4A94748A918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D1BB81-FC00-43FB-9D32-A4A94748A918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D1BB81-FC00-43FB-9D32-A4A94748A918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
