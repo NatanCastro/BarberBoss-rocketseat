@@ -35,10 +35,4 @@ public class TransactionController : ControllerBase
     {
         throw new NotImplementedException();
     }
-
-    [HttpGet("report/{type}")]
-    public IActionResult Report([FromRoute] string type)
-    {
-        throw new NotImplementedException();
-    }
 }
