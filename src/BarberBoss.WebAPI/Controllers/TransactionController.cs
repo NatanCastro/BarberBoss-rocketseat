@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BarberBoss.Exception;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BarberBoss.WebAPI.Controllers;
 
@@ -9,30 +10,30 @@ public class TransactionController : ControllerBase
     [HttpPost]
     public IActionResult Register([FromBody] object newTransaction)
     {
-        throw new NotImplementedException();
+        throw new DetailedNotImplementedException();
     }
 
     [HttpGet]
     public IActionResult FindAll()
     {
-        throw new NotImplementedException();
+        throw new DetailedNotImplementedException();
     }
 
     [HttpGet("{id}")]
     public IActionResult FindOne([FromRoute] Guid id)
     {
-        throw new NotImplementedException();
+        throw new DetailedNotImplementedException();
     }
 
     [HttpPut("{id}")]
     public IActionResult Update([FromRoute] Guid id, [FromBody] object updatedTransaction)
     {
-        throw new NotImplementedException();
+        throw new DetailedNotImplementedException();
     }
 
     [HttpDelete("{id}")]
     public IActionResult Delete([FromRoute] Guid id)
     {
-        throw new NotImplementedException();
+        throw new DetailedNotImplementedException();
     }
 }

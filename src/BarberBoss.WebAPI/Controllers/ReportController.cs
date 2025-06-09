@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BarberBoss.Exception;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BarberBoss.WebAPI.Controllers;
 
@@ -9,6 +10,6 @@ public class ReportController : ControllerBase
     [HttpPost("{type}/{resource}")]
     public IActionResult Get(string type, string resource)
     {
-        throw new NotImplementedException();
+        throw new DetailedNotImplementedException();
     }
 }
