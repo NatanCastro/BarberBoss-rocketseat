@@ -17,4 +17,9 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BarberBoss.Communication\BarberBoss.Communication.csproj" />
+      <ProjectReference Include="..\BarberBoss.Exception\BarberBoss.Exception.csproj" />
+    </ItemGroup>
+
 </Project>
